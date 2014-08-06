@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Lockbox'
-  s.version  = '1.4.9'
+  s.version  = '1.4.10'
   s.license  = 'MIT'
   s.summary  = 'Lockbox is an Objective-C utility class for storing data securely in the keychain. Use it to store small, sensitive bits of data securely.'
   s.homepage = 'https://github.com/andrewphahn/Lockbox'
