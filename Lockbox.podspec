@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/andrewphahn/Lockbox'
   s.author   = 'Mark H. Granoff'
 
-  s.source   = { :git => 'https://github.com/andrewphahn/Lockbox', :tag => '1.4.9' }
+  s.source   = { :git => 'https://github.com/andrewphahn/Lockbox.git', :tag => '1.4.9' }
 
   s.platform = :ios
   s.source_files = 'Lockbox.{h,m}'
