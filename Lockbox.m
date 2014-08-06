@@ -34,7 +34,7 @@ static NSString *_bundleId = nil;
 
 +(void)initialize
 {
-    _bundleId = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleIdentifierKey];
+    _bundleId = @"com.mobileday.MobileDay-D";
 }
 
 +(NSMutableDictionary *)_service
