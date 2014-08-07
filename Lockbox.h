@@ -6,6 +6,7 @@
 //
 
 @interface Lockbox : NSObject
++(NSString *)loadBundleId;
 
 +(BOOL)setString:(NSString *)value forKey:(NSString *)key;
 +(BOOL)setString:(NSString *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility;

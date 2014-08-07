@@ -34,7 +34,12 @@ static NSString *_bundleId = nil;
 
 +(void)initialize
 {
-    _bundleId = @"com.mobileday.MobileDay-D";
+    _bundleId = [Lockbox loadBundleId];
+}
+
++(NSString *)loadBundleId
+{
+    return [[[NSBundle bundleForClass:[self class]] infoDictionary] objectForKey:(NSString*)kCFBundleIdentifierKey];
 }
 
 +(NSMutableDictionary *)_service
