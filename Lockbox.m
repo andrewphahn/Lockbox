@@ -34,7 +34,7 @@ static NSString *_bundleId = nil;
 
 +(void)initialize
 {
-    _bundleId = [Lockbox loadBundleId];
+    _bundleId = [self loadBundleId];
 }
 
 +(NSString *)loadBundleId
